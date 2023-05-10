@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.livro {
+    margin-right: 30px;
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    padding: 15px;
+    align-items: center;
+}

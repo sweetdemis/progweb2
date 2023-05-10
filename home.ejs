@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>home</title>
 </head>
 <body>
-    <div class="produto">
-        <div class="titulo">
-            <h1>clica</h1>
+    <div class="flex-container">
+        <div class="livro">
+           <h4>A Livraria dos Achados e Perdidos</h4>
             <a href="/detalhe?livro1=detalhe"><%=livros.livro1%></a>
-        </div>
+         </div>
 
+         <div class="livro">
+            <h4>Cool for The Summer: Um Verão Inesquecível</h4>
+            <a href="/detalhe?livro2=detalhe"><%=livros.livro2%></a>
+         </div>
+
+         <div class="livro">
+            <h4>Assassinato no Expresso Oriente</h4>
+            <a href="/detalhe?livro3=detalhe"><%=livros.livro3%></a>
+         </div>
     </div>
-</body>
+</body> 
 </html>
