@@ -1,3 +1,7 @@
+body {
+    background-color:rgb(238, 238, 238);
+}
+
 .flex-container {
     display: flex;
     width: 100%;
@@ -8,10 +12,94 @@
 }
 
 .livro {
-    margin-right: 30px;
+    margin-right: 45px;
     width: 250px;
     height: 250px;
     background-color: lightblue;
     padding: 15px;
+    border-radius: 15px;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    width: 100%;
+    height: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.imgtopo {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.textomeio {
+    height: 250px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 12px;
+}
+
+.citacao {
+    background-color: lightblue;
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.agradecimento {
+    width: 100%;
+    height: 350px;   
+}
+
+.imgdetalhe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 300px;
+    background-color: yellow;
+}
+
+footer {
+    background-color: lightblue;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }

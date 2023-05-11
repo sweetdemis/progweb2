@@ -1,28 +1,55 @@
-<!DOCTYPE html>
-<html lang="pt-br>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>home</title>
-</head>
+<%- include('partials/head') %>
+ 
 <body>
+    <div class="topo">
+        <h5>Um leitor vive mil vidas antes de morrer. O homem que nunca lê vive apenas uma.</h5>
+    </div>
+
+    <div class="navbar">
+        <h3>navbar</h3>
+    </div>
+
+    <div class="imgtopo">
+        <img src="/img/IMG-3290.jpg">
+    </div>
+
+    <div class="textomeio">
+        <h2 class="titulo">Conheça nossos produtos!</h2>
+        <p>A livraria Cornelia Street garante A livraria Cornelia Street garante 
+            A livraria Cornelia Street garante A livraria Cornelia Street garante
+            A livraria Cornelia Street garante</p>
+    </div>
+
     <div class="flex-container">
         <div class="livro">
-           <h4>A Livraria dos Achados e Perdidos</h4>
-            <a href="/detalhe?livro1=detalhe"><%=livros.livro1%></a>
+           <h4>Mais Vendido do Ano!</h4>
+           <img class="img" src="/img/IMG-3283.jpg">
+            <a href="/detalhe/livro1"><%=livros.livro1%></a>
          </div>
 
          <div class="livro">
-            <h4>Cool for The Summer: Um Verão Inesquecível</h4>
-            <a href="/detalhe?livro2=detalhe"><%=livros.livro2%></a>
+            <h4>Melhor Recomendação!</h4>
+            <img class="img" src="/img/IMG-3282.jpg">
+            <a href="/detalhe/livro2"><%=livros.livro2%></a>
          </div>
 
          <div class="livro">
-            <h4>Assassinato no Expresso Oriente</h4>
-            <a href="/detalhe?livro3=detalhe"><%=livros.livro3%></a>
+            <h4>Lançamento Novo!</h4>
+            <img class="img" src="/img/IMG-3281.jpg">
+            <a href="/detalhe/livro3"><%=livros.livro3%></a>
          </div>
     </div>
+
+    <div class="citacao">
+
+    </div>
+
+    <div class="agradecimento">
+
+    </div>
+
+    <footer>
+        <h4>footer</h4>
+    </footer>
 </body> 
 </html>
